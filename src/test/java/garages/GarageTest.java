@@ -113,7 +113,7 @@ class GarageTest {
 
 		// On récupère le résultat de l'impression
 		String output = os.toString("UTF8");
-
+		System.out.println(output);
 		// Le garage g1 doit apparaître une fois
 		assertEquals(1, countSubstring(output, garageCastres.toString()),
 				garageCastres.toString() + " doit apparaître une fois");

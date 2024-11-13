@@ -51,4 +51,10 @@ public class Garage {
 	 * @return une chaîne de caractères représentant le garage, incluant son nom
 	 */
 	// La méthode toString() est générée par @ToString
+
+	@Override
+	public String toString(){
+		return name;
+	}
+
 }
